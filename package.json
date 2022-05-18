@@ -1,0 +1,35 @@
+{
+  "name": "@bacons/expo-background-color",
+  "version": "1.0.0",
+  "description": "Stack based React component for updating the native background color",
+  "main": "index.js",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanbacon/expo-background-color.git"
+  },
+  "peerDependencies": {
+    "expo-system-ui": "*",
+    "react-native": "*"
+  },
+  "keywords": [
+    "expo",
+    "expo-system-ui",
+    "react-native"
+  ],
+  "author": "Evan Bacon",
+  "license": "MIT",
+  "devDependencies": {
+    "expo-module-scripts": "^2.0.0",
+    "expo-system-ui": "^1.2.0",
+    "react-native": "0.68.2"
+  }
+}
